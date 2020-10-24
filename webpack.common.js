@@ -22,14 +22,15 @@ module.exports = {
            },
            {
                 test: /\.(jpe?g|png|svg|gif)$/,
-                use: {
+                use: [{
                     loader: 'file-loader',
                     options: {
                         // name: '[assets][images].[ext]?[contenthash]',
                         // outputPath: 'img',
-                        name: 'images/[name].[ext]',
+                        name: '[folder]/[name].[ext]',
+                        // name: 'logo.png',
                     },
-                },
+                }]
            }
        ]
    },

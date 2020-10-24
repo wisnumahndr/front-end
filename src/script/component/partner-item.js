@@ -52,10 +52,10 @@ class PartnerItem extends HTMLElement {
             -webkit-line-clamp: 10; /* number of lines to show */
         }
     </style>
-    <img class="fan-art-partner" src="${this._partner.fanArt}" alt="Fan Art">
+    <img class="fan-art-partner" src="${this._partner.title}" alt="Partner Art">
         <div class="partner-info">
-            <h2>${this._partner.name}</h2>
-            <p>${this._partner.description}</p>
+            <h2>${this._partner.PartnerName}</h2>
+            <p>${this._partner.content}</p>
             </div>
         `;
     }

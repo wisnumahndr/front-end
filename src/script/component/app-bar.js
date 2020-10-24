@@ -1,3 +1,4 @@
+import logo from '../../img/logo.png';
 class AppBar extends HTMLElement {
 
     constructor() {
@@ -63,7 +64,7 @@ class AppBar extends HTMLElement {
                 }
             }
         </style>
-            <img src="assets/images/logo.png" class="logo">
+            <img src="${logo}" class="logo">
             <h2>Partner</h2>
         `;
         
